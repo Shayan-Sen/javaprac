@@ -14,9 +14,7 @@ public class Fifteen {
         scanner.close();
         System.out.println();
         System.out.println(words[0]);
-        for (int number : numbers) {
-            System.out.println(number);
-        }
+        for (int number : numbers) { System.out.println(number); }
         System.out.println(words[1]);
     }
 }
