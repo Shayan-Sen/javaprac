@@ -9,8 +9,10 @@ import java.nio.file.StandardOpenOption;
 
 public class FileApiDemo {
     public static void main(String[] args) throws IOException {
-        InputStream in = Files.newInputStream(Path.of(args[0]), StandardOpenOption.READ);
-        OutputStream out = Files.newOutputStream(Path.of(args[1]), StandardOpenOption.CREATE,StandardOpenOption.APPEND);
+        StandardOpenOption inOptions = StandardOpenOption.READ;
+        StandardOpenOption[] outOptions = {StandardOpenOption.WRITE,StandardOpenOption.CREATE};
+        InputStream in = Files.newInputStream(Path.of(args[0]), inOptions);
+        OutputStream out = Files.newOutputStream(Path.of(args[1]), outOptions);
 
         in.transferTo(out);
 
