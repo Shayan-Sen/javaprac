@@ -20,8 +20,7 @@ public class ExternalSorting1 {
             return;
         }
         Path input = Path.of(args[0]);
-        Path outDir = Path.of(args[1]);
-        Files.createDirectories(outDir);
+        Path outDir = Files.createDirectories(Path.of(args[1]));
         try(BufferedReader reader = Files.newBufferedReader(input, StandardCharsets.UTF_8);){
             int shardNum = 0;
             String word  = reader.readLine();
