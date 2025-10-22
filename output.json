@@ -1,0 +1,57 @@
+[
+    {
+        "name": "CatFacts LLC",
+        "id": 1,
+        "quarterlyBudget": 8000,
+        "numEmployees": 5,
+        "contractStart": 1577836800.0,
+        "contractLength": 15552000.0,
+        "timeZones": [
+            "America/Los_Angeles"
+        ],
+        "billingAddress": "555 Meowmers Ln, Riverside, CA 92501",
+        "contractEnd": 1593388800.0
+    },
+    {
+        "name": "Marmot Memorabilia",
+        "id": 2,
+        "quarterlyBudget": 2500,
+        "numEmployees": 3,
+        "contractStart": 1514764800.0,
+        "contractLength": 157680000.0,
+        "timeZones": [
+            "America/Denver",
+            "America/Tijuana"
+        ],
+        "billingAddress": "Somewhere in the Rocky Mountains",
+        "contractEnd": 1672444800.0
+    },
+    {
+        "name": "Tapir Trivia",
+        "id": 3,
+        "quarterlyBudget": 8000,
+        "numEmployees": 200,
+        "contractStart": 1546300800.0,
+        "contractLength": 63072000.0,
+        "timeZones": [
+            "Asia/Manila",
+            "Asia/Bangkok"
+        ],
+        "billingAddress": "555 Meowmers Ln, Riverside, CA 92501",
+        "contractEnd": 1609372800.0
+    },
+    {
+        "name": "Dingo Details Inc.",
+        "id": 4,
+        "quarterlyBudget": 9000,
+        "numEmployees": 10000,
+        "contractStart": 1483228800.0,
+        "contractLength": 126144000.0,
+        "timeZones": [
+            "Australia/NSW",
+            "Australia/Melbourne"
+        ],
+        "billingAddress": "42 Wallaby Way",
+        "contractEnd": 1609372800.0
+    }
+]
