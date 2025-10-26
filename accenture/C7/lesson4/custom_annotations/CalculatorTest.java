@@ -22,4 +22,9 @@ public final class CalculatorTest implements UnitTests {
     public void testSubtraction() {
         assert calculator.calculate(45, "-", 43) == 2;
     }
+
+    @Test
+    public void testNotActuallyATest() {
+        assert 1 == 0;
+    }
 }
