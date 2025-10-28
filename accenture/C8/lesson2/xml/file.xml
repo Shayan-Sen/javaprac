@@ -1,0 +1,4 @@
+<CarRecords>
+    <Car name="Beetle" make="Volkswagen" year="1963"></Car>
+    <Car name="Miller-Meteor" make="Cadillac" year="1959"></Car>
+</CarRecords>
