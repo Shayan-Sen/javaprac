@@ -1,3 +1,4 @@
+
 public class EmailCheck implements ValidationStrategy {
 
 	// Regex from: https://emailregex.com/

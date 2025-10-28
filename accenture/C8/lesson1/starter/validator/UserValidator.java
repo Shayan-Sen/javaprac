@@ -1,3 +1,4 @@
+
 public class UserValidator {
 
 	private ValidationStrategy strategy;

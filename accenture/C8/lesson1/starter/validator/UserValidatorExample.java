@@ -1,3 +1,4 @@
+
 public class UserValidatorExample {
 	public static void main(String[] args) {
 		UserValidator validator = new UserValidator();
